@@ -1,0 +1,20 @@
+external_components:
+  - source: github://aalaei/esphome-nrf52-components
+    components: [paj7620, i2c]
+    refresh: 1h
+
+esphome:
+  name: gesture-board
+
+nrf52:
+  board: adafruit_feather_nrf52840
+  bootloader: mcuboot
+
+i2c:
+  sda: P1.13
+  scl: P1.01
+
+event:
+  - platform: paj7620
+    name: "Gesture"
+    int_pin: P1.04

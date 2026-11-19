@@ -1,0 +1,3 @@
+components/paj7620/paj7620.h and paj7620.cpp derive from the Grove-Gesture v1.0 library
+(Copyright (c) 2015 Seeed Technology Inc., MIT License), as adapted in
+https://github.com/apaex/PAJ7620-ESPHome. The MIT permission notice is in the source headers.
